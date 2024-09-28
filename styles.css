@@ -30,9 +30,7 @@ header h1 {
 }
 
 #dark-mode-toggle {
-    position: absolute;
-    left: 20px;
-    /* Place button on the left */
+    /* position: absolute; */
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -54,7 +52,10 @@ h2 {
     color: white;
     padding: 10px;
     cursor: pointer;
+    margin: auto;
     margin-bottom: 5px;
+    max-width: 50%;
+    text-align: center ;
 }
 
 table {
@@ -88,9 +89,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* a:visited {
+a:visited {
     color: #8B0000;
-} */
+}
 
 /* Dark mode styles */
 body.dark-mode {
@@ -118,10 +119,10 @@ body.dark-mode a {
     /* Light blue for links */
 }
 
-/* body.dark-mode a:visited {
+body.dark-mode a:visited {
     color: #ff8a65;
     /* Different color for visited links in dark mode */
-/* }  */
+} 
 
 body.dark-mode #dark-mode-toggle {
     background-color: #333;
