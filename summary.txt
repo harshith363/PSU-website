@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CPSEs and Government Jobs</h1>
+    </header>
+    <main>
+        <section>
+            <h2 class="dropdown-heading">Maharatna CPSEs</h2>
+            <table class="dropdown-content">
+                <tr><td>Bharat Heavy Electricals Limited</td><td><a href="#">Career Page</a></td></tr>
+                <!-- More rows -->
+            </table>
+        </section>
+        <section>
+            <h2 class="dropdown-heading">Navratna CPSEs</h2>
+            <table class="dropdown-content">
+                <tr><td>Bharat Electronics Limited</td><td><a href="#">Career Page</a></td></tr>
+                <!-- More rows -->
+            </table>
+        </section>
+        <section>
+            <h2 class="dropdown-heading">Miniratna CPSEs</h2>
+            <table class="dropdown-content">
+                <tr><td>Airports Authority of India</td><td><a href="#">Career Page</a></td></tr>
+                <!-- More rows -->
+            </table>
+        </section>
+    </main>
+</body>
+</html>
