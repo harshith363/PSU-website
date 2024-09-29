@@ -93,6 +93,12 @@ a:visited {
     color: #8B0000;
 }
 
+footer {
+    background-color: #333333;
+    text-align: center;
+    padding: 20px;
+}
+
 /* Dark mode styles */
 body.dark-mode {
     background-color: #121212;
